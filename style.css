@@ -1,0 +1,165 @@
+body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Fredericka the Great", sans-serif !important
+        }
+
+        .w3-row-padding img {
+            margin-bottom: 12px
+        }
+
+        /* Largura Barra Lateral */
+        .w3-sidebar {
+            width: 120px;
+            background: #222222;
+        }
+
+        /* Adição De Margin */
+        #main {
+            margin-left: 120px
+        }
+
+        /* Remover Margin Mobile */
+        @media only screen and (max-width: 600px) {
+            #main {
+                margin-left: 0
+            }
+        }
+
+        body,
+        html {
+            height: 100%
+        }
+
+        .bgimg {
+            background-image: url("imagens/cookies.jpg");
+            min-height: 100%;
+            background-position: center;
+            background-size: cover;
+        }
+
+        * {
+            cursor: url('./cursor/cursor.cur'), auto !important
+        }
+
+        a:hover {
+            cursor: url('./cursor/cursor3.cur'), auto !important
+        }
+
+        a.new:hover {
+            cursor: url('./cursor/cursor2.cur'), auto !important
+        }
+
+        button:hover{
+            cursor: url('./cursor/cursor3.cur'), auto !important
+        }
+
+        button.new:hover{
+            cursor: url('./cursor/cursor2.cur'), auto !important
+        }
+
+        input:hover{
+            cursor: url('./cursor/cursor3.cur'), auto !important
+        }
+
+        input.new:hover{
+            cursor: url('./cursor/cursor2.cur'), auto !important
+        }
+
+        .Login {
+            margin-top: 2px !important;
+        }
+
+        .Cardapio {
+            margin-bottom: 0px !important;
+        }
+
+
+        .social {
+            padding: 20px;
+            font-size: 20px;
+            width: 60px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+        }
+
+        .social:hover {
+            opacity: 0.7;
+        }
+
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+        }
+
+        .fa-instagram {
+            background: #125688;
+            color: white;
+        }
+
+        .fa-whatsapp {
+            background: green;
+            color: white;
+        }
+
+        .ModalCentral {
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-top: 20%;
+            padding-bottom: 20%;
+        }
+
+        fieldset {
+            display: block;
+            margin-left: 2px;
+            margin-right: 2px;
+            padding-top: 0.35em;
+            padding-bottom: 0.625em;
+            padding-left: 0.75em;
+            padding-right: 0.75em;
+            border: 2px groove (internal value);
+          }
+
+          .w3container {
+            position: relative;
+            
+          }
+          
+          .imagem {
+            display: block;
+            width: 100%;
+            height: auto;
+          }
+          
+          .overlay {
+            position: absolute;
+            background-color: rgb(214, 148, 61);
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 0;
+            height: 100%;
+            overflow: hidden;
+            transition: .7s ease;
+          }
+          
+          .w3container:hover .overlay {
+            width: 100%;
+          }
+          
+          .descricao {
+            position: absolute;
+            color: whitesmoke;
+            top: 50%;
+            left: 50%;
+            font-size: 18px;
+            white-space: nowrap;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+          }
